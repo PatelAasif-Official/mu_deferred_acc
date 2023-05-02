@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mu_deferred_acc *.css
+recursive-include mu_deferred_acc *.csv
+recursive-include mu_deferred_acc *.html
+recursive-include mu_deferred_acc *.ico
+recursive-include mu_deferred_acc *.js
+recursive-include mu_deferred_acc *.json
+recursive-include mu_deferred_acc *.md
+recursive-include mu_deferred_acc *.png
+recursive-include mu_deferred_acc *.py
+recursive-include mu_deferred_acc *.svg
+recursive-include mu_deferred_acc *.txt
+recursive-exclude mu_deferred_acc *.pyc
