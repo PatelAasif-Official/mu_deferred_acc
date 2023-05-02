@@ -9,6 +9,14 @@ app_color = "grey"
 app_email = "patelasif52@gmail.com"
 app_license = "MIT"
 
+
+doctype_js = {
+    "Sales Invoice":"mu_deferred_acc/custom_script/sales_invoice/sales_invoice.js",
+    }
+
+override_doctype_class = {
+	"Process Deferred Accounting":"mu_deferred_acc.mu_deferred_acc.custom_script.process_deferred_accounting.process_deferred_accounting.custom_ProcessDeferredAccounting",
+}
 # Includes in <head>
 # ------------------
 
